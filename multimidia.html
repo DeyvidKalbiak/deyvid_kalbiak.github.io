@@ -1,0 +1,82 @@
+# deyvid_kalbiak.github.io
+My personal website
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Tudo Sobre Google Glass</title>
+    <meta name="keywords" content="google glass,">
+    <meta name="author" content="Deyvid Kalbiak">
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/media.css">
+
+</head>
+<script>
+function mudaFoto(foto){
+
+document.getElementById("icone").src = foto;
+}
+     
+</script>
+
+<body>
+
+<div id="interface">
+
+   <header id="cabecalho">
+   <hgroup>
+   <h1>Google Glass</h1>
+
+<h2>A revolução do Google está chegando</h2>
+</hgroup>
+
+<img id= "icone"   src="_media/glass-oculos-preto-peq.png" alt="Oculos">
+
+<nav id="menu">
+<h1>Menu Principal</h1>
+<ul>
+<li onmouseover="mudaFoto('/_media/home.png')" onmouseout="mudaFoto('/_media/multimidia.png')"><a href="index.html">Home</a></li>
+<li onmouseover="mudaFoto('/_media/especificacoes.png')" onmouseout="mudaFoto('/_media/multimidia.png')"><a href="specs.html">Especificações</a></li>
+<li onmouseover="mudaFoto('/_media/fotos.png')" onmouseout="mudaFoto('/_media/multimidia.png')"> <a href="fotos.html">Fotos</a></li> 
+<li onmouseover="mudaFoto('/_media/multimidia.png')" onmouseout="mudaFoto('/_media/multimidia.png')"> <a href="multimidia.html">Multimídia</a></li> 
+<li onmouseover="mudaFoto('/_media/contato.png')" onmouseout="mudaFoto('/_media/multimidia.png')"> <a href="fale-conosco.html">Fale conosco</a> </li> 
+</ul>
+</nav>
+
+</header>
+
+<section id="corpo-full">
+    <article id="noticia-principal">
+        <header id="cabecalho-artigo">
+    <hgroup>
+    
+    <h3>Glass > Multimídia</h3>
+    <h1>Sons e Vídeos</h1>
+    <h2>por Deyvid Kalbiak</h2>
+    <h3 class="direita">Atualizado em 01/maio/2013</h3>
+    </hgroup>
+    </header>
+
+    <div id="tv-radio">
+        <audio id="musica" controls autoplay loop> <!-- pode usa tambem: controls ="controls" que funciona-->
+            <source src="/_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+            Desculpa, não foi possivel carregar o audio.
+        </audio>
+
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4EvNxWhskf8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen type="_media/video.png"></iframe>
+
+    </div>
+
+
+
+<footer id="rodape">
+    <p>
+Copyright 2020 - by Deyvid Kalbiak
+<a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><strong>| LinkedIn</strong></a>
+</p>
+</footer> 
+</div>
+</body>
+
+</html>
